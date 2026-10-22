@@ -1,3 +1,4 @@
+// @https://raw.githubusercontent.com/Pependr/c-templates/refs/heads/master/hashmap.h
 #ifndef HASHMAP_H_
 #define HASHMAP_H_
 

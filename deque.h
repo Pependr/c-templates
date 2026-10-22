@@ -1,3 +1,4 @@
+// @https://raw.githubusercontent.com/Pependr/c-templates/refs/heads/master/deque.h
 #ifndef DEQUE_H_
 #define DEQUE_H_
 

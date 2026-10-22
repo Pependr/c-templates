@@ -1,4 +1,5 @@
 // @https://raw.githubusercontent.com/Pependr/c-templates/refs/heads/master/vector.h
+
 #ifndef VECTOR_H_
 #define VECTOR_H_
 

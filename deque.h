@@ -91,6 +91,11 @@ static inline bool DEQUE_METHOD(push_right)(DEQUE_TYPE *dq, T item) {
 
     dq->items[deque__emod((dq->len++ + dq->off), dq->cap)] = item;
 
+    if (dq->len > dq->cap && dq->is_static) {
+        dq->len = dq->cap;
+        dq->off += 1;
+    }
+
     return true;
 }
 
